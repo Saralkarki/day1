@@ -1,18 +1,92 @@
 body{
     text-align:center;
+    background: #ffeedd
+}
+#box{
+    width: 300px;
+    height: 300px;
+    background: none;
+    margin: auto;
+    position: relative;
+    display: block;
+    
+    top: 20px;   
 }
 #circle{
     width: 200px;
     height: 200px;
     border-radius: 50%;
     background: grey;
-    margin: 300px 0px 0 600px;
-    
+    margin: 30px 0px 0px 50px;
+    display:block;      
+    z-index: 3; 
 }
-#eyes{
-    width: 20px;
-    height: 20px;
+#l_ears{
+    width: 100px;
+    height: 100px;
+    background: grey;
+    z-index: 1;
     border-radius: 50%;
-    background: red;
+    
+    position: absolute;
+    left: -10px;
+    top: 10%;  
+    z-index:-1; 
 }
-
+#r_ears{
+    width: 100px;
+    height: 100px;
+    background: grey;
+    z-index: 1;
+    border-radius: 50%;
+    top: 90px;
+    position: absolute;
+    left: 200px;
+    top: 10%;  
+    z-index: -1 
+}
+#inner-ear{
+    background:white;
+    width:75px;
+    height: 75px;
+    margin-top: 15%;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+#l_eye
+{
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background: white;  
+    margin-top: 10%;
+    margin-left: 40px;
+}
+#r_eye
+{
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background: white;  
+    margin-top: 10%;
+    margin-left: 100px;
+}
+#pupil{
+    position: absolute;
+    width: 20px;
+    height:20px;
+    background: black;
+    margin-top: 19px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+#nose{
+    width: 80px;
+    height: 100px;
+    border-radius: 50%;
+    background: brown;
+    position: absolute;
+    margin: 70px 0px 0px 60px;
+}
